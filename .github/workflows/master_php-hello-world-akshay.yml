@@ -25,10 +25,6 @@ jobs:
       uses: actions/checkout@master
 
     # setup php
-    - name: PHP ${{ env.PHP_VERSION }} Setup
-      uses: actions/setup-php@v2
-      with:
-        php-version: ${{ env.PHP_VERSION }}
 
     #deploy to Azure WebApp
     - name: 'Deploy to Azure WebApp'
