@@ -1,6 +1,6 @@
 ---
 page_type: sample
-languages:
+languages:  xxx
 - php
 products:
 - azure
