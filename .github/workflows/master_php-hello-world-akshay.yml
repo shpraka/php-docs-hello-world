@@ -11,9 +11,9 @@ on:
 #
 # 2. Change these variables for your configuration:
 env:
-  AZURE_WEBAPP_NAME: 'php-80-buster'    # set this to your application's name
+  AZURE_WEBAPP_NAME: 'php-81-testing'    # set this to your application's name
   WORKING_DIRECTORY: '.'   # set this to the path to your web app project, defaults to the repository root
-  PHP_VERSION: '8.0'
+  PHP_VERSION: '8.1'
 jobs:
   build-and-deploy:
     name: Build and Deploy
