@@ -28,7 +28,7 @@ jobs:
 
     #deploy to Azure WebApp
     - name: 'Deploy to Azure WebApp'
-      uses: azure/webapps-deploy@releases/v2.2.5_new_pr
+      uses: azure/webapps-deploy@releases/v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
