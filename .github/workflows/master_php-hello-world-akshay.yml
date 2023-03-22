@@ -1,6 +1,5 @@
 name: Deploy PHP to Azure Web App as a Linux Web App
 
-
 on:
   [push]
 
