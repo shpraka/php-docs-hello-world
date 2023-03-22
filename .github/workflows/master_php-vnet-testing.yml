@@ -3,6 +3,7 @@
 
 name: Build and deploy PHP app to Azure Web App - php-vnet-testing
 
+
 on:
   push:
     branches:
@@ -51,7 +52,7 @@ jobs:
           name: php-app
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@user/kumaraksh/fix-error-message
         id: deploy-to-webapp
         with:
           app-name: 'php-vnet-testing'
