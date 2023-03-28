@@ -52,7 +52,7 @@ jobs:
           name: php-app
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@user/kumaraksh/fix-error-message
+        uses: azure/webapps-deploy@user/kumaraksh/enhance-error
         id: deploy-to-webapp
         with:
           app-name: 'php-vnet-testing'
