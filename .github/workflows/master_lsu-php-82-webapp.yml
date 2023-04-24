@@ -51,7 +51,7 @@ jobs:
           name: php-app
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@testing
+        uses: azure/webapps-deploy@releases/akshay-testing
         id: deploy-to-webapp
         with:
           app-name: 'lsu-php-82-webapp'
