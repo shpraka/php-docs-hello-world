@@ -2,7 +2,6 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy PHP app to Azure Web App - test-basic-auth-token
-
 on:
   push:
     branches:
