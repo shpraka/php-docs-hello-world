@@ -7,10 +7,10 @@
     <h1>Welcome to my PHP Application</h1>
 
     <?php
-    include 'file1.php'; // Include the first PHP file
+    include 'file1.php';
+    include 'file2.php';
+    
     echo "<p>" . getMessageFromFile1() . "</p>";
-
-    include 'file2.php'; // Include the second PHP file
     echo "<p>" . getMessageFromFile2() . "</p>";
     ?>
 </body>
