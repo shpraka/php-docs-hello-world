@@ -1,3 +1,3 @@
 <?php
 
-echo "Hello Akshay Kumar!  VNET Testing";
+echo "Hello testing";
