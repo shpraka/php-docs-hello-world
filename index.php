@@ -7,10 +7,11 @@
     <h1>Welcome to my PHP Application</h1>
 
     <?php
-    require 'file1.php', 'file2.php';
+
+    echo "<p>" . "testing" "</p>"; 
+    include 'file1.php';
     
     echo "<p>" . getMessageFromFile1() . "</p>";
-    echo "<p>" . getMessageFromFile2() . "</p>";
     ?>
 </body>
 </html>
